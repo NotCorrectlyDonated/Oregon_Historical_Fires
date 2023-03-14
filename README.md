@@ -66,7 +66,7 @@ We can observe how low-size fires "A" have an increise over the years since 2010
 
 In order to show data in a more clear way, a new dataframe was made just to show fires ranked from C above.
 
-(IMAGEN 2)
+![img2](https://github.com/NotCorrectlyDonated/Oregon_Historical_Fires/blob/main/data/img2.PNG)
 
 
 We can observe an increase in the number of fires which are more dangerous (ranked "E" and above) since 2015.
@@ -76,7 +76,7 @@ We can observe an increase in the number of fires which are more dangerous (rank
 When grouping our dataset into the quantity of acres burned per district, the following bar graph shows
 
 
-(IMAGEN 3)
+![img3](https://github.com/NotCorrectlyDonated/Oregon_Historical_Fires/blob/main/data/img3.PNG)
 
 
 As previously mention, we can see how from 2015, there was an increase in the number of dangerous fires, being reflected in the number of acres burned. In the year 2020 we find out the most quantity of acres burned, having more than 8 times more acres burned, further studies have to be made if there was a correlation with the Covid-19 pandemic.
@@ -89,7 +89,7 @@ The most affected districs where North & South Cascade and Southwest Oregon.
 Since some of the fires may be caused intentionally for personal interest reasons, grouping between the number of fires and the type of the owners was made, having the following result.
 
 
-(IMAGEN 4)
+![img4](https://github.com/NotCorrectlyDonated/Oregon_Historical_Fires/blob/main/data/img4.PNG)
 
 
 There were not many variations among the different types of land but in 2021, where it is seen a huge outliers referring to Private and BLM properties. Further investigations need to be made to see the origin of these outliers and if it also could be as a response to the Covid-19 pandemic. 
@@ -102,11 +102,11 @@ Screenshots will be attached to have a preview of the work done.
 
 The first graph shows all the fires located in the state of Oregon with size class badge:
 
-(ALL LOCATIONS PHYSICAL IMG)
+![img4](https://github.com/NotCorrectlyDonated/Oregon_Historical_Fires/blob/main/data/all_fires.PNG)
 
 Analyzing the locations where the fires had occurred, we can observe that most of them where in the West part of the state, (Cascade Range and Grass Pass) in natural areas. 
 
-(danger fires)
+![img4](https://github.com/NotCorrectlyDonated/Oregon_Historical_Fires/blob/main/data/danger_fires.PNG)
 
 When analyzing high size fires, which are the critical part of this study, we can state that most dangerous fires are covered in the inside of this woods, which gives us a hint that these regions may be lacking firewalls to prevent these fires to occur in this difficult accesible lands.
 
