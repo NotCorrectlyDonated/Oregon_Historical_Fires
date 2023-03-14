@@ -119,3 +119,7 @@ Mapbox extension also allow us to see chronologically when the fires have occure
 
 
 
+https://user-images.githubusercontent.com/110167165/224986529-bd9177c5-5215-4003-8940-319ec1a7cda1.mp4
+
+
+
