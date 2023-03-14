@@ -11,7 +11,7 @@ This exploratory analysis was fully made in python language
 
 The dataset was provided by kaggle and can be seen [here](https://www.kaggle.com/datasets/mattop/fire-occurrence-and-cause-data-2000-2022). In order to correctly address the data, the following libraries were imported.
 
-``pandas``: As the main library to handle, organise and group data.
+``pandas``: As the main library to handle, organise and group data. \
 ``plotly``: Visualization library [^1] [^2]
 
 [^1]: We will use ``pio`` plotly extension to render flat images into GitHub,  
@@ -22,16 +22,16 @@ The dataset was provided by kaggle and can be seen [here](https://www.kaggle.com
 
 For this analysis, I will be using the following columns as I felt it provided the sufficient information for my analysis, the rest of the columns can be seen at this kaggle [link](https://www.kaggle.com/datasets/mattop/fire-occurrence-and-cause-data-2000-2022).
 
-`SERIAL`: As a fire indentificator (int) \
-`DistrictName`: Regional indicator where the fire was located (str) \
-`FireYear`: Year when the fire was set (int) \
-`SizeClass`: Categorical column referring to the size of burned acres. (str) \
-`EstTotalAcres`: Total acres burned estimation (float) \
-`GeneralCause`: Matter of the fire (str)\
-`Lat_DD','Long_DD'`: Exact location of the fire (float) \
-`FO_LandOwnType`: Owner of the fire origin (str) \
-`Ign_DateTime`: Date when the fire was set (str) \
-`Control_DateTime`: Date when the fire was controlled (str) \
+`SERIAL`: As a fire indentificator (``int``) \
+`DistrictName`: Regional indicator where the fire was located (``str``) \
+`FireYear`: Year when the fire was set (``int``) \
+`SizeClass`: Categorical column referring to the size of burned acres. (``str``) \
+`EstTotalAcres`: Total acres burned estimation (``float``) \
+`GeneralCause`: Matter of the fire (``str``)\
+`Lat_DD','Long_DD'`: Exact location of the fire (``float``) \
+`FO_LandOwnType`: Owner of the fire origin (``str``) \
+`Ign_DateTime`: Date when the fire was set (``str``) \
+`Control_DateTime`: Date when the fire was controlled (``str``) \
 
 ## Data Proccessing
 ### Handling Null values
@@ -61,7 +61,7 @@ For this process we will simply do a (groupby) function that counts the number o
 
 (IMAGEN 1)
 
-We can observe how low-size fires (A class) have an increise over the years since 2010, whether B class showed an steady frecuency over the years.
+We can observe how low-size fires "A" have an increise over the years since 2010, whether "B" class showed an steady frecuency over the years.
 
 
 In order to show data in a more clear way, a new dataframe was made just to show fires ranked from C above.
@@ -69,7 +69,7 @@ In order to show data in a more clear way, a new dataframe was made just to show
 (IMAGEN 2)
 
 
-We can observe an increase in the number of fires which are more dangerous (ranked E and above) since 2015.
+We can observe an increase in the number of fires which are more dangerous (ranked "E" and above) since 2015.
 
 ### Total Acres per District
 
