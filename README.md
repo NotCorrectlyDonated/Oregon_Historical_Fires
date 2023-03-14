@@ -57,9 +57,9 @@ Since all of the values showes except "Lightning" are directly or indirectly cau
 
 ### Evolution of the size of fires over years
 
-For this process we will simply do a (groupby) function that counts the number of fires depending on the (Size_class) and (FireYear) to then transform it into a new dataset and show it in a line chart.
+For this process we will simply do a `groupby` function that counts the number of fires depending on the `Size_class` and `FireYear` to then transform it into a new dataset and show it in a line chart.
 
-(IMAGEN 1)
+[img1](https://raw.githubusercontent.com/NotCorrectlyDonated/Oregon_Historical_Fires/data/img1.PNG)
 
 We can observe how low-size fires "A" have an increise over the years since 2010, whether "B" class showed an steady frecuency over the years.
 
@@ -97,7 +97,7 @@ There were not many variations among the different types of land but in 2021, wh
 
 ### Fires Located using Mapbox
 
-In order to correctly see the graphs, we will need an account in plotly mapbox, as a token is needed to proccess this kind of graphs, more information is shown (HERE).
+In order to correctly see the graphs, we will need an account in plotly mapbox, as a token is needed to proccess this kind of graphs, more information is shown [here](https://plotly.com/chart-studio-help/make-a-mapbox-map/).
 Screenshots will be attached to have a preview of the work done.
 
 The first graph shows all the fires located in the state of Oregon with size class badge:
