@@ -59,7 +59,7 @@ Since all of the values showes except "Lightning" are directly or indirectly cau
 
 For this process we will simply do a `groupby` function that counts the number of fires depending on the `Size_class` and `FireYear` to then transform it into a new dataset and show it in a line chart.
 
-![img1](https://raw.githubusercontent.com/NotCorrectlyDonated/Oregon_Historical_Fires/data/img1.PNG)
+![img1](https://github.com/NotCorrectlyDonated/Oregon_Historical_Fires/blob/main/data/img1.pdf)
 
 We can observe how low-size fires "A" have an increise over the years since 2010, whether "B" class showed an steady frecuency over the years.
 
