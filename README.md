@@ -24,7 +24,7 @@ For this analysis, I will be using the following columns as I felt it provided t
 
 `SERIAL`: As a fire indentificator (int)
 `DistrictName`: Regional indicator where the fire was located (str)
-`FireYear`: Year when the fire was set (int)
+`FireYear`: Year when the fire was set (int) 
 `SizeClass`: Categorical column referring to the size of burned acres. (str)
 `EstTotalAcres`: Total acres burned estimation (float)
 `GeneralCause`: Matter of the fire (str)
