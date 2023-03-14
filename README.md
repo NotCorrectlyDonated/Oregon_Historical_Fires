@@ -30,14 +30,15 @@ FO_LandOwnType: Owner of the fire origin (str)
 Ign_DateTime: Date when the fire was set (str)
 Control_DateTime: Date when the fire was controlled (str)
 
-## Handling Null values
+## Data Proccessing
+### Handling Null values
 
 After selecting the columns used for the research, we were leflt with 11 columns and 23490 entries for our analysis.
 
 Checking whether the dataset contained null values, there where seen that 100 rows contained null values in any of the columns, since the amount of null rows are less than 0,5% of the entries in the dataset, I got rid of them I pressume it won't make an impact in our analysis. 
 
 
-## Datetime conversion
+### Datetime conversion
 
 Having a look at the types of data in the columns, we can find that the columns (Ign_DateTime) and (Control_DateTime) are not recognizable as dates in our dataset, for this reason, we will convert them into (datetime) class, and transform them just to show the month and year where the fire was made.
 
@@ -67,7 +68,7 @@ In order to show data in a more clear way, a new dataframe was made just to show
 
 We can observe an increase in the number of fires which are more dangerous (ranked E and above) since 2015.
 
-## Total Acres per District
+### Total Acres per District
 
 When grouping our dataset into the quantity of acres burned per district, the following bar graph shows
 
@@ -80,7 +81,7 @@ As previously mention, we can see how from 2015, there was an increase in the nu
 The most affected districs where North & South Cascade and Southwest Oregon.
 
 
-## Land Owners & Fires
+### Land Owners & Fires
 
 Since some of the fires may be caused intentionally for personal interest reasons, grouping between the number of fires and the type of the owners was made, having the following result.
 
@@ -91,9 +92,26 @@ Since some of the fires may be caused intentionally for personal interest reason
 There were not many variations among the different types of land but in 2021, where it is seen a huge outliers referring to Private and BLM properties. Further investigations need to be made to see the origin of these outliers and if it also could be as a response to the Covid-19 pandemic. 
 
 
-## Fires Location using Mapbox
+### Fires Located using Mapbox
 
-In order to correctly 
+In order to correctly see the graphs, we will need an account in plotly mapbox, as a token is needed to proccess this kind of graphs, more information is shown (HERE).
+Screenshots will be attached to have a preview of the work done.
+
+The first graph shows all the fires located in the state of Oregon with size class badge:
+
+(ALL LOCATIONS PHYSICAL IMG)
+
+Analyzing the locations where the fires had occurred, we can observe that most of them where in the West part of the state, (Cascade Range and Grass Pass) in natural areas. 
+
+(danger fires)
+
+When analyzing high size fires, which are the critical part of this study, we can state that most dangerous fires are covered in the inside of this woods, which gives us a hint that these regions may be lacking firewalls to prevent these fires to occur in this difficult accesible lands.
+
+       
+#### Fires per year.
+
+Mapbox extension also allow us to see chronologically when the fires have occured, showing the following graph
+
 
 
 
