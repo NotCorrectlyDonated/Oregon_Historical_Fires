@@ -22,16 +22,16 @@ The dataset was provided by kaggle and can be seen [here](https://www.kaggle.com
 
 For this analysis, I will be using the following columns as I felt it provided the sufficient information for my analysis, the rest of the columns can be seen at this kaggle [link](https://www.kaggle.com/datasets/mattop/fire-occurrence-and-cause-data-2000-2022).
 
-`SERIAL`: As a fire indentificator (int)
-`DistrictName`: Regional indicator where the fire was located (str)
-`FireYear`: Year when the fire was set (int) 
-`SizeClass`: Categorical column referring to the size of burned acres. (str)
-`EstTotalAcres`: Total acres burned estimation (float)
-`GeneralCause`: Matter of the fire (str)
-`Lat_DD','Long_DD'`: Exact location of the fire (float)
-`FO_LandOwnType`: Owner of the fire origin (str)
-`Ign_DateTime`: Date when the fire was set (str)
-`Control_DateTime`: Date when the fire was controlled (str)
+`SERIAL`: As a fire indentificator (int) \
+`DistrictName`: Regional indicator where the fire was located (str) \
+`FireYear`: Year when the fire was set (int) \
+`SizeClass`: Categorical column referring to the size of burned acres. (str) \
+`EstTotalAcres`: Total acres burned estimation (float) \
+`GeneralCause`: Matter of the fire (str)\
+`Lat_DD','Long_DD'`: Exact location of the fire (float) \
+`FO_LandOwnType`: Owner of the fire origin (str) \
+`Ign_DateTime`: Date when the fire was set (str) \
+`Control_DateTime`: Date when the fire was controlled (str) \
 
 ## Data Proccessing
 ### Handling Null values
