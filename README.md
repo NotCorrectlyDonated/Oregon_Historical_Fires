@@ -9,26 +9,29 @@ This exploratory analysis was fully made in python language
 
 ## Dataset and Libraries used
 
-The dataset was provided by kaggle and can be seen here. In order to correctly address the data, the following libraries were imported.
+The dataset was provided by kaggle and can be seen [here](https://www.kaggle.com/datasets/mattop/fire-occurrence-and-cause-data-2000-2022). In order to correctly address the data, the following libraries were imported.
 
-pandas: As the main library to handle, organise and group data.
-plotly: Visualization library (NOTA A PIE DE PAGINA, 1: PIO PARA RENDERIZAR EN GITHUB 2: MAPBOX EXTENSION, TOKEN)
+``pandas``: As the main library to handle, organise and group data.
+``plotly``: Visualization library [^1] [^2]
+
+[^1]: We will use ``pio`` plotly extension to render flat images into GitHub,  
+[^2]: To build animate graphs and locate them, we will use plotly MapBox extension, to have an inmersive analysis, a token will be needed.
 
 
 ## Data Used
 
-For this analysis, I will be using the following columns as I felt it provided the sufficient information for my analysis, the rest of the columns can be seen at this kaggle (LINK).
+For this analysis, I will be using the following columns as I felt it provided the sufficient information for my analysis, the rest of the columns can be seen at this kaggle [link](https://www.kaggle.com/datasets/mattop/fire-occurrence-and-cause-data-2000-2022).
 
-SERIAL: As a fire indentificator (int)
-DistrictName: Regional indicator where the fire was located (str)
-FireYear: Year when the fire was set (int)
-SizeClass: Categorical column referring to the size of burned acres. (str)
-EstTotalAcres: Total acres burned estimation (float)
-GeneralCause: Matter of the fire (str)
-Lat_DD','Long_DD': Exact location of the fire (float)
-FO_LandOwnType: Owner of the fire origin (str)
-Ign_DateTime: Date when the fire was set (str)
-Control_DateTime: Date when the fire was controlled (str)
+`SERIAL`: As a fire indentificator (int)
+`DistrictName`: Regional indicator where the fire was located (str)
+`FireYear`: Year when the fire was set (int)
+`SizeClass`: Categorical column referring to the size of burned acres. (str)
+`EstTotalAcres`: Total acres burned estimation (float)
+`GeneralCause`: Matter of the fire (str)
+`Lat_DD','Long_DD'`: Exact location of the fire (float)
+`FO_LandOwnType`: Owner of the fire origin (str)
+`Ign_DateTime`: Date when the fire was set (str)
+`Control_DateTime`: Date when the fire was controlled (str)
 
 ## Data Proccessing
 ### Handling Null values
@@ -40,7 +43,7 @@ Checking whether the dataset contained null values, there where seen that 100 ro
 
 ### Datetime conversion
 
-Having a look at the types of data in the columns, we can find that the columns (Ign_DateTime) and (Control_DateTime) are not recognizable as dates in our dataset, for this reason, we will convert them into (datetime) class, and transform them just to show the month and year where the fire was made.
+Having a look at the types of data in the columns, we can find that the columns `Ign_DateTime` and `Control_DateTime` are not recognizable as dates in our dataset, for this reason, we will convert them into ``datetime`` class, and transform them just to show the month and year where the fire was made.
 
 After these 2 processes the dataset is ready to extract information
 
