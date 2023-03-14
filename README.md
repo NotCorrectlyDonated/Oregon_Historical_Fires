@@ -42,7 +42,7 @@ Checking whether the dataset contained null values, there where seen that 100 ro
 
 
 ### Datetime conversion
-
+ 
 Having a look at the types of data in the columns, we can find that the columns `Ign_DateTime` and `Control_DateTime` are not recognizable as dates in our dataset, for this reason, we will convert them into ``datetime`` class, and transform them just to show the month and year where the fire was made.
 
 After these 2 processes the dataset is ready to extract information
