@@ -30,7 +30,7 @@ For this analysis, I will be using the following columns as I felt they provided
 `GeneralCause`: Matter of the fire (``str``)\
 `Lat_DD','Long_DD'`: Exact location of the fire (``float``) \
 `FO_LandOwnType`: Owner of the fire origin (``str``) \
-`Ign_DateTime`: Date when the fire was set (``str``) \
+`Ign_DateTime`: Date when the fire was set (``str``) 
  
 
 ## Data Proccessing
