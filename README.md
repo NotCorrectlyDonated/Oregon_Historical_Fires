@@ -30,7 +30,7 @@ For this analysis, I will be using the following columns as I felt they provided
 `GeneralCause`: Matter of the fire (``str``)\
 `Lat_DD','Long_DD'`: Exact location of the fire (``float``) \
 `FO_LandOwnType`: Owner of the fire origin (``str``) \
-`Ign_DateTime`: Date when the fire was set (``str``) (We will reconvert the column to the month when it was set) \
+`Ign_DateTime`: Date when the fire was set (``str``) \
  
 
 ## Data Proccessing
@@ -43,7 +43,9 @@ Checking whether the dataset contained null values, there where seen that 100 ro
 
 ### Datetime conversion
  
-Having a look at the types of data in the columns, we can find that the columns `Ign_DateTime` and `Control_DateTime` are not recognizable as dates in our dataset, for this reason, we will convert them into ``datetime`` class, and transform them to show the month and year where the fire was made.
+Having a look at the types of data in the columns, we can find that the columns `Ign_DateTime` is not recognizable as dates in our dataset, for this reason, conversion into ``datetime`` class is needed, converting it in year and month to get it simple.
+
+A new column will be made ``Fire_month`` showing just the month when it was set in order to obtain more insights.
 
 After these 2 processes, the dataset is ready to extract information
 
